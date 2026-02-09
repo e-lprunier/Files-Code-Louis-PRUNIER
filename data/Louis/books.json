@@ -1,0 +1,239 @@
+[
+  {
+    "id": "c9bbc33c41cb43ccb5b8beda560c55bb",
+    "title": "Petit traité des grandes vertus",
+    "author": "André COMTE-SPONVILLE",
+    "status": "lu",
+    "created_at": "2025-09-19T23:01:30",
+    "rating": 3.5
+  },
+  {
+    "id": "f5be814f95ed40a6b2aad89920c3e950",
+    "title": "La désindustrialisation de la France",
+    "author": "Nicolas DUFOURCQ",
+    "status": "achete",
+    "created_at": "2025-09-19T23:02:30"
+  },
+  {
+    "id": "710d879dd8284f88b85c29871f35e429",
+    "title": "Chirac, une vie",
+    "author": "Franz Olivier Giesbert",
+    "status": "achete",
+    "created_at": "2025-09-19T23:03:14"
+  },
+  {
+    "id": "ff01905707604f96a3831425b9e5aa94",
+    "title": "Les ingénieurs du chaos",
+    "author": "Giuliano DA EMPOLI",
+    "status": "lu",
+    "created_at": "2025-09-19T23:05:19",
+    "rating": 3.5
+  },
+  {
+    "id": "2c5abd9e6024485dba9f70407ac17bbe",
+    "title": "L'homme sans nom",
+    "author": "Jack BEAUMONT",
+    "status": "lu",
+    "created_at": "2025-09-19T23:06:28",
+    "rating": 4.5
+  },
+  {
+    "id": "b8cf0c5b9cb04cdf8872c9316e8d6617",
+    "title": "La crise, et après ?",
+    "author": "Jacques ATTALI",
+    "status": "achete",
+    "created_at": "2025-09-19T23:07:15"
+  },
+  {
+    "id": "f3f1feb4a5b3467bb090b15fd6b469a2",
+    "title": "L'art de la guerre",
+    "author": "SUN TZU",
+    "status": "achete",
+    "created_at": "2025-09-19T23:14:15"
+  },
+  {
+    "id": "dfbb841f7a36462590eea05d9ec7d011",
+    "title": "Le traitre et le néant",
+    "author": "DAVET et LHOMME",
+    "status": "lu",
+    "created_at": "2025-09-19T23:15:01",
+    "rating": 3.5
+  },
+  {
+    "id": "5abd8e9237c241c3baf96b90bb0bdf0a",
+    "title": "Une vie choisie",
+    "author": "Marc SIMONCINI",
+    "status": "lu",
+    "created_at": "2025-09-19T23:18:14",
+    "rating": 3.5
+  },
+  {
+    "id": "a7c95b6ecd884271947c94423c4a45c4",
+    "title": "Travailler avec les IA génératives",
+    "author": "La fabrique de l'industrie",
+    "status": "achete",
+    "created_at": "2025-09-19T23:19:17"
+  },
+  {
+    "id": "cf4f4ff8d1b14f8d9de7eef6bfc3f676",
+    "title": "Je dirai malgré tout que la politique est belle",
+    "author": "Clément BEAUNE",
+    "status": "lu",
+    "created_at": "2025-09-19T23:19:56",
+    "rating": 4
+  },
+  {
+    "id": "5432092f1d69486a986a6a90cd8e7ba9",
+    "title": "Passions",
+    "author": "Nicolas SARKOZY",
+    "status": "achete",
+    "created_at": "2025-09-19T23:20:32"
+  },
+  {
+    "id": "bac2b3df92da458986f5cd251f1b72db",
+    "title": "Le président toxique",
+    "author": "Etienne CAMPION",
+    "status": "lu",
+    "created_at": "2025-09-19T23:21:14",
+    "rating": 4
+  },
+  {
+    "id": "55767a2537b742f9942bd1c98ae5f65f",
+    "title": "Le premier homme",
+    "author": "Albert CAMUS",
+    "status": "achete",
+    "created_at": "2025-09-19T23:22:55"
+  },
+  {
+    "id": "c45b0cc65ccf48ddbade02136029f46b",
+    "title": "Une histoire du conflit politique",
+    "author": "CAGE et PIKETTY",
+    "status": "achete",
+    "created_at": "2025-09-19T23:23:37"
+  },
+  {
+    "id": "d4d0824d25ce4ac48e3396bd0a9e0a2b",
+    "title": "Bernard, la fureur de vivre",
+    "author": "Dominique TAPIE",
+    "status": "lu",
+    "created_at": "2025-09-19T23:24:12",
+    "rating": 4.0
+  },
+  {
+    "id": "7616558defcb44e8aeba08ef1e610d5e",
+    "title": "L'étrange victoire",
+    "author": "HAUSALTER et LAMBRET",
+    "status": "lu",
+    "created_at": "2025-09-19T23:24:35",
+    "rating": 3
+  },
+  {
+    "id": "56c6cf1c393f4274b382f3fbedd0d760",
+    "title": "Nos meilleurs années",
+    "author": "Pierre MOSCOVICI",
+    "status": "lu",
+    "created_at": "2025-09-19T23:24:52",
+    "rating": 4
+  },
+  {
+    "id": "55c8c97bc972446faabfb528204c7ef0",
+    "title": "L'heure des prédateurs",
+    "author": "Giuliano DA EMPOLI",
+    "status": "lu",
+    "created_at": "2025-09-19T23:25:29",
+    "rating": 4.0
+  },
+  {
+    "id": "aa6ed3cba8a24c8f8339122c302c2366",
+    "title": "Le rouge et le Noir",
+    "author": "STENDHAL",
+    "status": "achete",
+    "created_at": "2025-09-19T23:25:53"
+  },
+  {
+    "id": "69362e345b1b4271ae9505f851c47714",
+    "title": "Le Prince",
+    "author": "Nicolas MACHIAVEL",
+    "status": "lu",
+    "created_at": "2025-09-19T23:27:17",
+    "rating": 5
+  },
+  {
+    "id": "5146b49fa16a428aa8c715a0a968fe9f",
+    "title": "Président cambrioleur",
+    "author": "Corinne LHAÏK",
+    "status": "lu",
+    "created_at": "2025-09-19T23:27:52",
+    "rating": 2.5
+  },
+  {
+    "id": "91867199d9a3455392ba460b5c20374a",
+    "title": "La Peste",
+    "author": "Albert CAMUS",
+    "status": "lu",
+    "created_at": "2025-09-19T23:29:55",
+    "rating": 4
+  },
+  {
+    "id": "93ec920ad99045ac922157e3ba3b9e7a",
+    "title": "Le capital au XXIème siècle",
+    "author": "Thomas PIKETTY",
+    "status": "achete",
+    "created_at": "2025-09-19T23:30:26"
+  },
+  {
+    "id": "23f7099a4f7746d2aff30c049fea85e7",
+    "title": "Lettre à la génération qui va tout changer",
+    "author": "Raphaël GLUCKSMANN",
+    "status": "lu",
+    "created_at": "2025-09-19T23:31:20",
+    "rating": 3.5
+  },
+  {
+    "id": "3f4e40ff906b4cdfba230264dd815331",
+    "title": "Le business de nos données médicales",
+    "author": "Audrey BOULARD",
+    "status": "achete",
+    "created_at": "2025-09-19T23:32:12"
+  },
+  {
+    "id": "e6f5e2b297bc443ba9859238e5bc71af",
+    "title": "Gabriel Attal, le jeune homme si pressé",
+    "author": "Frédéric FATOUX",
+    "status": "lu",
+    "created_at": "2025-09-19T23:32:47",
+    "rating": 3
+  },
+  {
+    "id": "b36c1bc467b243948c718ead9673597e",
+    "title": "Passeport diplomatique",
+    "author": "Gérard ARAUD",
+    "status": "lu",
+    "created_at": "2025-09-19T23:35:21",
+    "rating": 4
+  },
+  {
+    "id": "23b28e4a242143369f39c6e70adeae62",
+    "title": "François Baroin",
+    "author": "Anne FULDA",
+    "status": "lu",
+    "created_at": "2025-09-25T11:23:49",
+    "rating": 2.5
+  },
+  {
+    "id": "bae5c45805564a73b1b4f0ccd6f0ddb9",
+    "title": "Les Solastalgiques",
+    "author": "Martin HIRSCH",
+    "status": "lu",
+    "rating": 4.5,
+    "created_at": "2025-11-04T10:49:38"
+  },
+  {
+    "id": "11fc5b65cbfb48d5a2b2a66d1ee3aded",
+    "title": "L'Etranger",
+    "author": "Albert CAMUS",
+    "status": "lu",
+    "rating": 4.5,
+    "created_at": "2025-11-07T14:15:01"
+  }
+]

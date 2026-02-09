@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Se connecter — Ma mini bibliothèque</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: linear-gradient(180deg,#f8fafc,#eef2f6); min-height:100vh; }
+    .brand { font-weight:700; letter-spacing:0.3px; }
+    .logo-box { width:56px; height:56px; border-radius:10px; background:#fff; display:flex; align-items:center; justify-content:center; box-shadow:0 6px 18px rgba(20,30,60,0.06); }
+    .card { border-radius:12px; }
+    .form-control:focus { box-shadow:0 0 0 0.15rem rgba(13,110,253,0.12); }
+  </style>
+</head>
+<body>
+  <div class="container py-5">
+    <div class="row justify-content-center align-items-center" style="min-height:70vh;">
+      <div class="col-md-7 col-lg-5">
+        <div class="d-flex align-items-center mb-4">
+          <div class="logo-box me-3"><span style="font-size:22px;">📚</span></div>
+          <div>
+            <div class="brand">Ma mini bibliothèque</div>
+            <small class="text-muted">Gère tes livres, notes et profil</small>
+          </div>
+        </div>
+
+        <div class="card shadow-sm">
+          <div class="card-body p-4">
+            <h4 class="mb-3">Se connecter</h4>
+
+            {% with messages = get_flashed_messages() %}
+              {% if messages %}
+                <div class="alert alert-warning py-2">{{ messages[0] }}</div>
+              {% endif %}
+            {% endwith %}
+
+            <form method="post" class="mb-3">
+              <div class="mb-3">
+                <label class="form-label">Nom d'utilisateur</label>
+                <input name="username" class="form-control" placeholder="Ex: Louis" required autofocus>
+              </div>
+
+              <!-- Mot de passe avec eye toggle -->
+              <div class="mb-3">
+                <label class="form-label">Mot de passe</label>
+                <div class="input-group">
+                  <input id="login-password" name="password" type="password" class="form-control" placeholder="••••••••" required>
+                  <button type="button" class="btn btn-outline-secondary password-toggle" data-target="#login-password" aria-label="Afficher/masquer le mot de passe">👁️</button>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="rememberMe" disabled>
+                  <label class="form-check-label" for="rememberMe">Se souvenir</label>
+                </div>
+                <a href="{{ url_for('register') }}" class="small">Créer un compte</a>
+              </div>
+
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg">Connexion</button>
+              </div>
+            </form>
+
+            <hr>
+
+            <div class="text-center text-muted small">
+              En test local — tes données sont stockées dans <code>data/</code>.
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-3 small text-muted">
+          <a href="{{ url_for('register') }}">Pas de compte ? Inscris‑toi</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // toggle password visibility (works pour plusieurs boutons)
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('.password-toggle').forEach(function(btn){
+        btn.addEventListener('click', function(){
+          var input = document.querySelector(btn.dataset.target);
+          if(!input) return;
+          if(input.type === 'password') {
+            input.type = 'text';
+            btn.textContent = '🙈';
+          } else {
+            input.type = 'password';
+            btn.textContent = '👁️';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
